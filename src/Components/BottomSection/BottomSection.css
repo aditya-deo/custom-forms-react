@@ -1,0 +1,32 @@
+.colorChange{
+    background-color: #ffe9da;
+    width: 95%;
+    height: 60px;
+    color: #b96730;
+    font-size: x-large;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    border-color: rgb(255, 179, 152);
+    border-radius: 5px;
+    border: solid 0.3px;
+    cursor: pointer;
+    font-family: 'M PLUS 1 Code', sans-serif;
+}
+.fireBase{
+    background-color: #ffe9da;
+    width: 95%;
+    height: 60px;
+    color: #b96730;
+    font-size: x-large;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    border-color: rgb(255, 179, 152);
+    border-radius: 5px;
+    border: solid 0.3px;
+    cursor: pointer;
+    font-family: 'M PLUS 1 Code', sans-serif;
+}

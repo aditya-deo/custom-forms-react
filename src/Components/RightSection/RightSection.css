@@ -1,0 +1,23 @@
+.rightSection{
+    background-color: rgb(246, 255, 255);
+    float: right;
+    height: 720px;
+    width: 72%;
+    border-radius: 10px;
+    margin: 10px;
+    border: solid 1px;
+}
+
+
+.rightSectionSubdiv{
+    width: auto;
+    height: 69.6px;
+    border-bottom: solid rgb(229, 249, 255);
+}
+
+
+.formName{
+    text-align: center;
+    color: rgb(61, 197, 202);
+    font-size: xx-large;
+}

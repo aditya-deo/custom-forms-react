@@ -1,0 +1,10 @@
+.leftSection{
+    background-color: rgb(255, 245, 230);
+    position: fixed;
+    height: 720px;
+    width: 25%;
+    border-radius: 10px;
+    margin: 10px;
+    display: inline-block;
+    font-family: 'M PLUS 1 Code', sans-serif;
+}
