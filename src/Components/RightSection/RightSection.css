@@ -3,7 +3,7 @@
     float: right;
     height: 720px;
     width: 72%;
-    border-radius: 10px;
+    border-radius: 3px;
     margin: 10px;
     border: solid 1px;
 }
@@ -12,7 +12,7 @@
 .rightSectionSubdiv{
     width: auto;
     height: 69.6px;
-    border-bottom: solid rgb(229, 249, 255);
+    /* border-bottom: solid rgb(229, 249, 255); */
 }
 
 
