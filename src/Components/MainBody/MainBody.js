@@ -1,13 +1,29 @@
-import React from 'react'
-import LeftSection from '../LeftSection/LeftSection'
-import RightSection from '../RightSection/RightSection'
+import React from "react";
+import LeftSection from "../LeftSection/LeftSection";
+import RightSection from "../RightSection/RightSection";
 const MainBody = () => {
-    return (
-        <>
-          <LeftSection />
-          <RightSection />  
-        </>
-    )
-}
+  const [statuses, setStatuses] = React.useState([0, 0, 0, 0, 0, 0, 0, 0, 0]);
+  const [pointer, setPointer] = React.useState(0);
 
-export default MainBody
+  const triggerSetStatuses = (statusCode) => {
+    if (pointer > 8) {
+      alert("No More Elements Can be added");
+    } else {
+      setStatuses((prev) => {
+        prev[pointer] = statusCode;
+        return prev;
+      });
+      console.log(statuses);
+      setPointer(pointer + 1);
+    }
+  };
+
+  return (
+    <>
+      <LeftSection onOptionSelect={triggerSetStatuses} />
+      <RightSection statuses={statuses} />
+    </>
+  );
+};
+
+export default MainBody;

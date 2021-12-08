@@ -9,7 +9,7 @@ const LeftSection = (props) => {
     return (
         <div className="leftSection">
             <ButtonSection changeOptionsArray = {setOptions}/>
-            <OptionSection options={options}/>
+            <OptionSection onOptionSelect={props.onOptionSelect} options={options}/>
             <BottomSection />
         </div>
     )
