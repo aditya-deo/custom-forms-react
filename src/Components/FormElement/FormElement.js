@@ -3,19 +3,19 @@ import "./FormElement.css";
 
 const FormElement = (props) => {
   if (props.statusCode === 1) {
-    return <input type="email" className="formElement__email" placeholder="E-mail"></input>;
+    return <input id = "formElement__email" type="email" className="formElement__email" placeholder="E-mail"></input>;
   } 
   else if (props.statusCode === 2) {
-    return <input type="text" className="formElement__singleLineInput" placeholder="Enter Text"></input>;
+    return <input id = "formElement__singleLineInput" type="text" className="formElement__singleLineInput" placeholder="Enter Text"></input>;
   } 
   else if (props.statusCode === 3) {
-    return <textarea placeholder="Text Area" className="formElement__textArea"></textarea>
+    return <textarea id = "formElement__textArea" placeholder="Text Area" className="formElement__textArea"></textarea>
   } 
   else if (props.statusCode === 4) {
-    return <input type="password" className="formElement__password" placeholder="Enter Password"></input>;
+    return <input id = "formElement__password" type="password" className="formElement__password" placeholder="Enter Password"></input>;
   } 
   else if (props.statusCode === 5) {
-    return <button type="submit" className="formElement__submitButton">Submit</button>
+    return <button type="submit" id = "formElement__submitButton" className="formElement__submitButton">Submit</button>
   } 
   else {
     return <></>;

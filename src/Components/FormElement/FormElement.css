@@ -1,5 +1,9 @@
+*{
+    border-radius: 1px;
+}
+
 .formElement__email, .formElement__singleLineInput, .formElement__password{
-    background-color: rgb(246, 255, 255);
+    background-color: rgb(255, 255, 255);
     width: 70%; /* Can be in percentage also. */
     height: 30px;
     margin-left: 140px;
@@ -8,7 +12,7 @@
     border-top: none;
     border-left: none;
     border-right: none;
-    border-bottom: solid 2px rgb(0, 223, 223);
+    border-bottom: solid 2px rgb(0, 0, 0);
     font-size: large;
     font-family: 'M PLUS 1 Code', sans-serif;
 }
@@ -19,7 +23,7 @@
 
 
 .formElement__textArea{
-    background-color: rgb(246, 255, 255);
+    background-color: rgb(255, 255, 255);
     width: 70%; /* Can be in percentage also. */
     height: 30px;
     margin-left: 140px;
@@ -28,7 +32,7 @@
     border-top: none;
     border-left: none;
     border-right: none;
-    border-bottom: solid 2px rgb(0, 223, 223);
+    border-bottom: solid 2px rgb(0, 0, 0);
     font-size: large;
     font-family: 'M PLUS 1 Code', sans-serif;
 }
@@ -38,8 +42,8 @@
     height:70%;
     margin-top: 20px;
     margin-left: 330px;
-    border: solid 2px rgb(0, 183, 207);
-    background-color: rgb(185, 240, 240);
+    border: solid 2px rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
     font-size: large;
     font-family: 'M PLUS 1 Code', sans-serif;
     border-radius: 3px;
