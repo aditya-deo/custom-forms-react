@@ -3,7 +3,7 @@
 }
 
 .formElement__email, .formElement__singleLineInput, .formElement__password{
-    background-color: rgb(255, 255, 255);
+    background-color: #F6F7FF;
     width: 70%; /* Can be in percentage also. */
     height: 30px;
     margin-left: 140px;
@@ -23,7 +23,7 @@
 
 
 .formElement__textArea{
-    background-color: rgb(255, 255, 255);
+    background-color: #F6F7FF;
     width: 70%; /* Can be in percentage also. */
     height: 30px;
     margin-left: 140px;
@@ -43,7 +43,7 @@
     margin-top: 20px;
     margin-left: 330px;
     border: solid 2px rgb(0, 0, 0);
-    background-color: rgb(255, 255, 255);
+    background-color: #F6F7FF;
     font-size: large;
     font-family: 'M PLUS 1 Code', sans-serif;
     border-radius: 3px;
