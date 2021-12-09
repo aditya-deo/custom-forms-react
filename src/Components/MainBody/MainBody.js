@@ -13,7 +13,6 @@ const MainBody = () => {
         prev[pointer] = statusCode;
         return prev;
       });
-      console.log(statuses);
       setPointer(pointer + 1);
     }
   };
