@@ -1,6 +1,7 @@
 import React from "react";
 import LeftSection from "../LeftSection/LeftSection";
 import RightSection from "../RightSection/RightSection";
+
 const MainBody = () => {
   const [statuses, setStatuses] = React.useState([0, 0, 0, 0, 0, 0, 0, 0, 0]);
   const [pointer, setPointer] = React.useState(0);
